@@ -48,7 +48,15 @@ body {
   main {
     margin-top: 58px;
     display: flex;
+    justify-content: space-between;
   }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
 
   
   h1, ul {
